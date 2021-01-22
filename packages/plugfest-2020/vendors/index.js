@@ -7,6 +7,7 @@ const factom = require('./factom');
 const sicpa = require('./sicpa');
 const dock = require('./dock');
 const trybeid = require('./trybeid');
+const spruce = require('./spruce');
 
 const vendor_map = {
   transmute,
@@ -17,7 +18,8 @@ const vendor_map = {
   factom,
   sicpa,
   dock,
-  trybeid
+  trybeid,
+  spruce
 };
 
 let vendors = [];

@@ -8,6 +8,7 @@
     "lint:fix": "eslint \"**/*.js\" --fix",
     "test": "jest",
     "test:all": "jest",
+    "test:spruce": "INTEROP_FOCUS=spruce npm run test",
     "test:dock": "INTEROP_FOCUS=dock npm run test",
     "test:digital_bazaar": "INTEROP_FOCUS=digital_bazaar npm run test",
     "test:transmute": "INTEROP_FOCUS=transmute npm run test",
